@@ -7,8 +7,12 @@ int main()
     double a, b, c;
     
     // введення змінної
-    cout << " Введіть три числа: ";
-    cin >> a >> b >> c;
+   cout << "Введiть точку a: ";
+    cin >> a;
+    cout << "Введiть точку b: ";
+    cin >> b;
+    cout << "Введiть точку c: ";
+    cin >> c;
     
     // розрахунок результату
     double average = (a + b + c) / 3;
